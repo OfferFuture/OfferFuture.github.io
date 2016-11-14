@@ -1,0 +1,8 @@
+name: ""
+description: ""
+ 
+url: "http://OfferFuture.github.io"
+  
+markdown: rdiscount
+permalink: pretty
+pygments: true
