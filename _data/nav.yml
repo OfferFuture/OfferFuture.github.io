@@ -18,6 +18,6 @@
 - name: 联系我们
   path: contact.html
   section_id: contact
-- name: 博客
+- name: 往期发布
   path: blog/
   section_id: blog
