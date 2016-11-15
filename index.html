@@ -101,6 +101,25 @@ services:
   - icon: lock
     title: 套词
     desc: 套词是一个很重要的过程，很多申请者过多注重英语成绩，忽视了陶瓷的重要性。对于北美申请，教授更加注重你的科研背景与能力，英语成绩次之。对加拿大的硕博士申请者，套词是必须的，因为您需要一个接收您的导师。大多数申请往往在套词的过程中就已经决定，因此套词宜早不宜晚！
+
+milestones:
+  - icon: folder-open
+    from: 0
+    to: 69
+    title: Projects Completed
+  - icon: coffee
+    from: 0
+    to: 726
+    title: Cups of coffee offered
+  - icon: thumbs-up
+    from: 0
+    to: 59
+    title: Happy clients
+  - icon: file-text
+    from: 0
+    to: 21
+    title: Articles Published
+
 ---
 
 
@@ -245,32 +264,6 @@ services:
   <div class='spacing'></div>
 </div>
 
-
-<div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="Parallax effect" color="#fff" %}
-      <div class='spacing'></div>
-      <p class='centered-text' style='color: #ccc;'>
-        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% for milestone in page.milestones %}
-      <div class='medium-3 large-3 columns'>
-        <div class='mod modMilestone'>
-          <i class='fa fa-{{milestone.icon}}'></i>
-          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
-          <span>{{milestone.title}}</span>
-          <div class='four spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class='two spacing'></div>
-</div>
 
 <div class='full'>
   <div class='row'>
