@@ -7,6 +7,9 @@
 - name: 服务
   path: services.html
   section_id: services
+- name: 招生信息发布
+  path: blog/
+  section_id: blog
 - name: 案例
   path: portfolio.html
   section_id: portfolio
@@ -18,6 +21,4 @@
 - name: 联系我们
   path: contact.html
   section_id: contact
-- name: 往期发布
-  path: blog/
-  section_id: blog
+
