@@ -97,7 +97,7 @@ services:
     desc: 文书，特别是CV的好坏直接影响到套词的效果。对申请者来说，所有的硬件条件基本固定，能够稍作提升的空间只有文书。传统中介没有一对一的交流，不能全面的了解申请者的经历，不能挖掘其中被申请者忽视的经历与品质，直接影响文书的质量。我们通过深入一对一甚至多对一的交流，尽最大可能挖掘您的优势！
   - icon: pagelines
     title: 选校导师
-    desc: 不要不切实际的的一味追求名校综排，合理的安排学校，有层次的选择不同档次的学校能极大的提高申请陈功率。有的放矢的选择导师也是一个重要因素，不仅要了解导师招不招生，更要了解导师的需求，这也是本平台的初衷！
+    desc: 不要不切实际的的一味追求名校综排，合理的安排学校，有层次的选择不同档次的学校能极大的提高申请陈功率。有的放矢的选择导师也是一个重要因素，不仅要了解
   - icon: lock
     title: 套词
     desc: 套词是一个很重要的过程，很多申请者过多注重英语成绩，忽视了陶瓷的重要性。对于北美申请，教授更加注重你的科研背景与能力，英语成绩次之。对加拿大的硕博士申请者，套词是必须的，因为您需要一个接收您的导师。大多数申请往往在套词的过程中就已经决定，因此套词宜早不宜晚！
@@ -119,7 +119,6 @@ milestones:
     from: 0
     to: 21
     title: Articles Published
-
 ---
 
 
@@ -264,6 +263,32 @@ milestones:
   <div class='spacing'></div>
 </div>
 
+
+<div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Parallax effect" color="#fff" %}
+      <div class='spacing'></div>
+      <p class='centered-text' style='color: #ccc;'>
+        Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-{{milestone.icon}}'></i>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
 
 <div class='full'>
   <div class='row'>
