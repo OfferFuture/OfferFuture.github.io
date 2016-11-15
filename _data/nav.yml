@@ -1,13 +1,13 @@
-- name: Home
+- name: 原点
   path: index.html
   section_id: home
-- name: About
+- name: 关于我们
   path: about.html
   section_id: about
-- name: Services
+- name: 服务
   path: services.html
   section_id: services
-- name: Portfolio
+- name: 案例
   path: portfolio.html
   section_id: portfolio
   children:
@@ -15,9 +15,9 @@
       path: portfolio.html
     - name: Portfolio item
       path: portfolio-item.html
-- name: Contact
+- name: 联系我们
   path: contact.html
   section_id: contact
-- name: Blog
+- name: 博客
   path: blog/
   section_id: blog
