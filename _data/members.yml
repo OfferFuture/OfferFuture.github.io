@@ -1,42 +1,32 @@
 - avatar: images/@stock/member-1.jpg
   name: University of Alberta
-  position: Founder
+  position: 发起者
   socials:
     - link: http://twitter.com
       icon: weixin
   desc:
     我们从这里起家！
 - avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
+  name: University of British Columbia
+  position: 参与者
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
+      icon: weixin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    一步一个脚印！
 - avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
+  name: Michigan University, Ann Arbor
+  position: 参与者
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
+      icon: weixin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    阔步向前！
 - avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
+  name: University of California, San Diego
+  position: 参与者
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+      icon: weixin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    下一个会不会是您呢？
