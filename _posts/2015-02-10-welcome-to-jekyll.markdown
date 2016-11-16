@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+author: 北美博士帮帮忙
 date:   2015-02-10 08:19:12
 categories: jekyll update
 ---
