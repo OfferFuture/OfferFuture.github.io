@@ -3175,8 +3175,8 @@ body {
   display: inline-block;
   border: 1px solid #bbb;
   padding: 5px 10px;
-  margin-left: 5rem;
-  margin-bottom: 5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .modOfferGallery .gallery-nav li a {
   color: #999;
