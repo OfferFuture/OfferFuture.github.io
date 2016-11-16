@@ -8,6 +8,9 @@
   path: services.html
   section_id: services
 - name: 招生信息发布
+  path: offers.html
+  section_id: offer
+- name: 招生信息发布
   path: blog/
   section_id: blog
 - name: 案例

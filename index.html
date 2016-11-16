@@ -305,7 +305,25 @@ milestones:
       <div class='two spacing'></div>
     </div>
   </div>
-
+  
+  <div class="mod modGallery">
+    <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+      {% for work in page.works %}
+        <li class="{{ work.klass }}">
+          <a href='{{ work.link_to }}'>
+            <img alt="" src="{{ work.image }}" />
+            <div class='overlay'>
+              <div class='thumb-info'>
+                <h3>{{ work.title }}</h3>
+                <p>{{ work.desc }}</p>
+              </div>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
   <div class='row'>
     {% for post in site.posts %}
       {% if forloop.index > 3 %}
