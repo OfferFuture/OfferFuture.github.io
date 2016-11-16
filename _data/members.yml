@@ -1,13 +1,11 @@
 - avatar: images/@stock/member-1.jpg
-  name: Mark Wayne
+  name: University of Alberta
   position: Founder
   socials:
     - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+      icon: weixin
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    我们从这里起家！
 - avatar: images/@stock/member-2.jpg
   name: Kate Holms
   position: Creative Director
