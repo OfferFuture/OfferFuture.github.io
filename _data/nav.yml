@@ -7,7 +7,7 @@
 - name: 服务
   path: services.html
   section_id: services
-- name: 招生信息发布
+- name: Offer来啦
   path: offers.html
   section_id: offers
 - name: 精选资讯
