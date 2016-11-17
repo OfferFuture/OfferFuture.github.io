@@ -3389,7 +3389,8 @@ body {
   line-height: 2.5rem;
 }
 .modTeamMember img {
-  width: 100%;
+  height: 100%;
+  width: auto;
 }
 .modTeamMember .overlay {
   opacity: 0;
