@@ -1,5 +1,5 @@
 <div class='links'>
-  <h3>Archives</h3>
+  <h3>归档</h3>
   <ul>
     <li>
       <a href='#'>11月 2016</a>
@@ -21,14 +21,9 @@
 <div class='links'>
   <h3>近期发布</h3>
   <ul>
-    {% for post in site.posts %}
-	  {% if forloop.index > 3 %}
-        {% break %}
-      {% endif %}
-	  <li>
-        <a href="{{post.url}}">{{post.title}}</a>
-      </li>
-    {% endfor %}
+	<li>
+      <a href="{{post.url}}">{{post.title}}</a>
+    </li>
   </ul>
 </div>
 <!-- <div class='links'>
