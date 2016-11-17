@@ -3389,6 +3389,8 @@ body {
   line-height: 2.5rem;
 }
 .modTeamMember img {
+  display: block;
+  margin: 0 auto;
   height: 100%;
   width: auto;
 }
