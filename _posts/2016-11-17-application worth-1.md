@@ -7,10 +7,7 @@ images:
   - images/@stock/blog/single-application.jpg
 categories: jekyll update
 ---
-
-科学理性地告诉你什么时候值得花钱辅助申请------申请单所学校 (上)
 ===================
-### 目录
 
 [TOC]
 
@@ -44,7 +41,7 @@ Std = \sqrt{p(1-p)}
 $$
 这是个什么意思呢？请看下图，注意图中Y轴是价值，您可以除以300,000得到申请成功率。
 
-![申请单所学校成功率期望及标准差](images/@stock/blog/multi-application.jpg)
+![申请单所学校成功率期望及标准差](/images/@stock/blog/multi-application.jpg)
 
 也就是说，你拿到奖学金的概率或者价值的期望是和 p 值成正比的。 也就是说，作为一个硕士申请者，你的申请成功率 每提高10%，你的回报的期望大概是 30，000软妹币。
 

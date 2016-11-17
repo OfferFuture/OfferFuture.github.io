@@ -7,8 +7,6 @@ images:
   - images/@stock/blog/multi-application.jpg
 categories: jekyll update
 ---
-
-科学理性地告诉你什么时候值得花钱辅助申请------申请多所学校 (下)
 ===================
 
 [TOC]
