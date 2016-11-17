@@ -223,6 +223,46 @@ milestones:
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
+      {% include section-header.html title="我们的团队" %}
+      <div class='spacing'></div>
+      <p>
+        我们的团队都是由海外博士组成，以后说不定要当叫兽，所以就不放具体信息啦！找到我们自然就会认识啦！这里就列一列现有成员学校分布情况吧！
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in site.data.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}'>
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
       {% include section-header.html title="服务项目" %}
       <div class='spacing'></div>
       <p>
@@ -282,46 +322,6 @@ milestones:
         </li>
       {% endfor %}
     </ul>
-  </div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="我们的团队" %}
-      <div class='spacing'></div>
-      <p>
-        我们的团队都是由海外博士组成，以后说不定要当叫兽，所以就不放具体信息啦！找到我们自然就会认识啦！这里就列一列现有成员学校分布情况吧！
-      </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
   </div>
 </div>
 
