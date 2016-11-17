@@ -4,9 +4,9 @@
 - name: 关于我们
   path: about.html
   section_id: about
-- name: 服务
-  path: services.html
-  section_id: services
+#- name: 服务
+#  path: services.html
+#  section_id: services
 - name: Offer来啦
   path: offers.html
   section_id: offers
