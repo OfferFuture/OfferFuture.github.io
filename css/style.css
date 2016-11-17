@@ -1428,7 +1428,7 @@ form input.error, form textarea.error {
   background: #fff;
 }
 .modBlogPost .content {
-  padding: 30px 20px;
+  padding: 5px 5px;
 }
 .modBlogPost h4 a {
   color: #333;
