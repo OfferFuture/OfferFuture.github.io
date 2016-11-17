@@ -1483,7 +1483,7 @@ form input.error, form textarea.error {
   color: #ccc;
 }
 .modBlogPost.big h3 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 .modBlogPost.big h3 a {
   color: #333;
