@@ -44,14 +44,6 @@
       icon: weixin
     - link: https://www.ubc.ca/
       icon: home
-- avatar: images/@stock/university/UCSD.png
-  name: University of California, San Diego
-  position: 参与者
-  socials:
-    - link: contact.html
-      icon: weixin
-    - link: http://ucsd.edu
-      icon: home
 - avatar: images/@stock/university/Oxford.jpg
   name: Oxford University
   position: 参与者
@@ -59,4 +51,12 @@
     - link: contact.html
       icon: weixin
     - link: http://www.ox.ac.uk
+      icon: home
+- avatar: images/@stock/university/UCSD.png
+  name: University of California, San Diego
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+    - link: http://ucsd.edu
       icon: home
