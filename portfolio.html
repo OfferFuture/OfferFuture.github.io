@@ -3,93 +3,38 @@ layout: default
 title: Portfolio
 section_id: portfolio
 works:
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
+  - image: images/@stock/offers/Offer-1.jpg
+    title: 付同学
+    link_to: portfolio.html
+    klass: PhD
+    desc: 伊利诺伊大学
+  - image: images/@stock/offers/Offer-2.jpg
+    title: 易同学
+    link_to: portfolio.html
+    klass: PhD
+    desc: 阿尔伯塔大学全奖Offer
+  - image: images/@stock/offers/Offer-3.jpg
+    title: 蒋同学-南阳理工大学全奖Offer
+    link_to: portfolio.html
+    klass: PhD
     desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design print
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development print
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
+  - image: images/@stock/offers/Offer-4.jpg
+    title: 陆同学
+    link_to: portfolio.html
+    klass: PhD
+    desc: 弗罗里达大学计算机系
+  - image: images/@stock/offers/Offer-5.jpg
+    title: 陈同学
+    link_to: portfolio.html
+    klass: PhD
+    desc: Nebraska大学全奖Offer
 ---
 
 
 <div class='full parallax' style='background-image: url(images/@stock/portfolio-header-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our portfolio" tagline="Have a look at our works" color="#fff" class="big" %}
+      {% include section-header.html title="成果展" tagline="我们帮助的申请人都拿到了奖学金哦！" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -99,30 +44,23 @@ works:
 <div class='full'>
   <div class='row'>
     <div class='mod modGallery'>
-	  <!--
       <div class='gallery-nav'>
         <ul>
           <li class='current'>
             <a data-cat='all' href='#'>All</a>
           </li>
           <li>
-            <a data-cat='graphic-design' href='#'>Graphic Design</a>
+            <a data-cat='PhD' href='#'>博士</a>
           </li>
           <li>
-            <a data-cat='web-design' href='#'>Web Design</a>
+            <a data-cat='Master' href='#'>硕士</a>
           </li>
           <li>
-            <a data-cat='brand' href='#'>Brand</a>
-          </li>
-          <li>
-            <a data-cat='development' href='#'>Development</a>
-          </li>
-          <li>
-            <a data-cat='print' href='#'>Print</a>
+            <a data-cat='Bachelor' href='#'>本科</a>
           </li>
         </ul>
       </div>
-	  -->
+
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
         {% for work in page.works %}
