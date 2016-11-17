@@ -36,6 +36,14 @@
       icon: weixin
   desc:
     下一个会不会是您呢？
+- avatar: images/@stock/university/UBC.png
+  name: University of British Columbia
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+    - link: https://www.ubc.ca/
+      icon: home
 - avatar: images/@stock/university/UCSD.png
   name: University of California, San Diego
   position: 参与者
