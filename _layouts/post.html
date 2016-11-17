@@ -15,14 +15,14 @@ section_id: blog
       </div>
 	  -->
       <div class='content'>
-        <p class='info'>
+        <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+		<p class='info'>
           <span>
             作者： {{page.author}}
           </span>
 		  /
 		  <span>{{page.date | date: "%B %d, %Y" }}</span>
         </p>
-        <h3><a href="{{page.url}}">{{page.title}}</a></h3>
         {{ content }}
       </div>
     </div>
