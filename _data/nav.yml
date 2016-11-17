@@ -10,7 +10,7 @@
 - name: 招生信息发布
   path: offers.html
   section_id: offer
-- name: 招生信息发布
+- name: 精选资讯
   path: blog/
   section_id: blog
 - name: 案例
