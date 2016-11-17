@@ -70,24 +70,55 @@ services:
   - icon: lock
     title: 套词与申请
     desc: 我们提供专业的套磁服务，100%由相应专业PhD亲自代你与教授邮件交流，为你塑造完美学霸形象。PhD导师将详细阅读教授的相关文献，在套词信中充分展现学术实力和学术契合度，为套牢教授提供最强大的技术支持。 因为没有人比博士们更能读paper：）不读paper的套词就是打水漂！
+offers:
+  - image: images/@stock/work-1.jpg
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
+    klass: CSE CME STA
+    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
+  - image: images/@stock/work-1.jpg
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
+    klass: BAM BUS STA
+    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
+  - image: images/@stock/work-1.jpg
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
+    klass: BAM BUS
+    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
+  - image: images/@stock/work-1.jpg
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
+    klass: BUS STA
+    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
+  - image: images/@stock/work-1.jpg
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
+    klass: CME STA
+    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
 
 works:
-  - image: images/@stock/Offer-1.jpg
+  - image: images/@stock/offers/Offer-1.jpg
     title: 付同学-伊利诺伊大学
     link_to: portfolio-item.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/Offer-2.jpg
+  - image: images/@stock/offers/Offer-2.jpg
     title: 易同学-阿尔伯塔大学全奖Offer
     link_to: portfolio-item.html
-    klass: 蒋同学-南阳理工大学全奖Offer
+    klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/Offer-3.jpg
+  - image: images/@stock/offers/Offer-3.jpg
+    title: 蒋同学-南阳理工大学全奖Offer
+    link_to: portfolio-item.html
+    klass: graphi-design
+    desc: Design &amp; Development
+  - image: images/@stock/offers/Offer-4.jpg
     title: 陆同学-弗罗里达大学计算机系
     link_to: portfolio-item.html
     klass: graphi-design
     desc: Design &amp; Development
-  - image: images/@stock/Offer-4.jpg
+  - image: images/@stock/offers/Offer-5.jpg
     title: 陈同学-Nebraska大学全奖Offer
     link_to: portfolio-item.html
     klass: graphi-design
@@ -308,14 +339,17 @@ milestones:
   <div class='row'>
 	  <div class="mod modOfferGallery">
         <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-          {% for work in page.works %}
-            <li class="{{ work.klass }}">
-              <a href='{{ work.link_to }}'>
-                <img alt="" src="{{ work.image }}" />
+          {% for offer in page.offers %}
+		    {% if forloop.index > 4 %}
+			  {% break %}
+			{% endif %}
+            <li class="{{ offer.klass }}">
+              <a href='{{ offer.link_to }}'>
+                <img alt="" src="{{ offer.image }}" />
                 <div class='overlay'>
                   <div class='thumb-info'>
-                    <h3>{{ work.title }}</h3>
-                    <p>{{ work.desc }}</p>
+                    <h3>{{ offer.title }}</h3>
+                    <p>{{ offer.desc }}</p>
                   </div>
                 </div>
               </a>
