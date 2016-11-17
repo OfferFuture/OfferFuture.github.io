@@ -2,86 +2,26 @@
 layout: default
 title: Offers
 section_id: offers
-works:
+offers:
   - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
+    title: CS/EE/材料/生统
+    link_to: offers-item.html
     klass: graphic-design
     desc: Design &amp; Development
   - image: images/@stock/work-2.jpg
     title: Beautiful Girl
-    link_to: portfolio-item.html
+    link_to: offers-item.html
     klass: web-design print
     desc: Design &amp; Development
   - image: images/@stock/work-3.jpg
     title: Beautiful Girl
-    link_to: portfolio-item.html
+    link_to: offers-item.html
     klass: brand
     desc: Design &amp; Development
   - image: images/@stock/work-4.jpg
     title: Beautiful Girl
-    link_to: portfolio-item.html
+    link_to: offers-item.html
     klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development print
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
     desc: Design &amp; Development
 ---
 
@@ -102,36 +42,42 @@ works:
       <div class='gallery-nav'>
         <ul>
           <li class='current'>
-            <a data-cat='all' href='#'>All</a>
+            <a data-cat='all' href='#'>所有</a>
           </li>
           <li>
-            <a data-cat='graphic-design' href='#'>Graphic Design</a>
+            <a data-cat='CSEE' href='#'>CS/EE</a>
           </li>
           <li>
-            <a data-cat='web-design' href='#'>Web Design</a>
+            <a data-cat='CME' href='#'>材料/化工</a>
           </li>
           <li>
-            <a data-cat='brand' href='#'>Brand</a>
+            <a data-cat='civil' href='#'>土木</a>
           </li>
           <li>
-            <a data-cat='development' href='#'>Development</a>
+            <a data-cat='statistics' href='#'>统计</a>
+          </li>
+		  <li>
+            <a data-cat='bio-arg-med' href='#'>生物/农林/医药</a>
+          </li>
+		  <li>
+            <a data-cat='statistics' href='#'>商科</a>
           </li>
           <li>
-            <a data-cat='print' href='#'>Print</a>
+            <a data-cat='else' href='#'>其他</a>
           </li>
         </ul>
       </div>
 
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
-        {% for work in page.works %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
+        {% for offer in page.offers %}
+          <li class="{{ offer.klass }}">
+            <a href='{{ offer.link_to }}'>
+              <img alt="" src="{{ offer.image }}" />
               <div class='overlay'>
                 <div class='thumb-info'>
-                  <h3>{{ work.title }}</h3>
-                  <p>{{ work.desc }}</p>
+                  <h3>{{ offer.title }}</h3>
+                  <p>{{ offer.desc }}</p>
                 </div>
               </div>
             </a>

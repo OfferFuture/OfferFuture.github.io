@@ -16,11 +16,11 @@
 - name: 案例
   path: portfolio.html
   section_id: portfolio
-  children:
-    - name: 案例
-      path: portfolio.html
-    - name: 案例 1
-      path: portfolio-item.html
+  #children:
+  #  - name: 案例
+  #    path: portfolio.html
+  #  - name: 案例 1
+  #    path: portfolio-item.html
 - name: 联系我们
   path: contact.html
   section_id: contact
