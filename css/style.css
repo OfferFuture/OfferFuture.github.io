@@ -1518,12 +1518,12 @@ form input.error, form textarea.error {
   background: none;
 }
 .modBlogPost.no_bg .content {
-  padding: 30px 0 10px;
+  padding: 5px 0 5px;
   background: none;
 }
 
 .modBlogPost.no_bg.no-media .content {
-  padding: 0 0 10px;
+  padding: 0 0 5px;
 }
 
 /* Slider */
