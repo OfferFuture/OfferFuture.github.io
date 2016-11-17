@@ -1474,7 +1474,7 @@ form input.error, form textarea.error {
   width: 97%;
 }
 .modBlogPost.big .content {
-  padding: 5px 5px;
+  padding: 50px 40px;
 }
 .modBlogPost.big .info {
   font-size: 0.78571rem;
@@ -1518,12 +1518,12 @@ form input.error, form textarea.error {
   background: none;
 }
 .modBlogPost.no_bg .content {
-  padding: 5px 0 5px;
+  padding: 30px 0 10px;
   background: none;
 }
 
 .modBlogPost.no_bg.no-media .content {
-  padding: 0 0 5px;
+  padding: 0 0 10px;
 }
 
 /* Slider */
