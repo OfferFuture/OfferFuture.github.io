@@ -8,13 +8,13 @@
       icon: home
   desc:
     我们从这里起家！
-- avatar: images/@stock/university/UBC.png
-  name: University of British Columbia
+- avatar: images/@stock/university/YALE.jpg
+  name: Yale University
   position: 参与者
   socials:
     - link: contact.html
       icon: weixin
-    - link: https://www.ubc.ca
+    - link: http://www.yale.edu/
       icon: home
   desc:
     一步一个脚印！
@@ -28,6 +28,14 @@
       icon: home
   desc:
     阔步向前！
+- avatar: images/@stock/university/member-1.jpg
+  name: Your University
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+  desc:
+    下一个会不会是您呢？
 - avatar: images/@stock/university/UCSD.png
   name: University of California, San Diego
   position: 参与者
@@ -44,19 +52,3 @@
       icon: weixin
     - link: http://www.ox.ac.uk
       icon: home
-- avatar: images/@stock/university/YALE.jpg
-  name: Yale University
-  position: 参与者
-  socials:
-    - link: contact.html
-      icon: weixin
-    - link: http://www.yale.edu/
-      icon: home
-- avatar: images/@stock/university/member-1.jpg
-  name: Your University
-  position: 参与者
-  socials:
-    - link: contact.html
-      icon: weixin
-  desc:
-    下一个会不会是您呢？
