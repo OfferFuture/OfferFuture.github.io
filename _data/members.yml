@@ -1,32 +1,56 @@
-- avatar: images/@stock/member-1.jpg
+- avatar: images/@stock/UofA.png
   name: University of Alberta
   position: 发起者
   socials:
-    - link: http://twitter.com
+    - link: contact.html
       icon: weixin
+    - link: https://www.ualberta.ca
+      icon: home
   desc:
     我们从这里起家！
-- avatar: images/@stock/member-2.jpg
+- avatar: images/@stock/university/UBC.png
   name: University of British Columbia
   position: 参与者
   socials:
-    - link: http://twitter.com
+    - link: contact.html
       icon: weixin
+    - link: https://www.ubc.ca
+      icon: home
   desc:
     一步一个脚印！
-- avatar: images/@stock/member-3.jpg
+- avatar: images/@stock/university/UMich.png
   name: Michigan University, Ann Arbor
   position: 参与者
   socials:
-    - link: http://twitter.com
+    - link: contact.html
       icon: weixin
+    - link: http://umich.edu
+      icon: home
   desc:
     阔步向前！
-- avatar: images/@stock/member-4.jpg
+- avatar: images/@stock/university/UCSD.png
   name: University of California, San Diego
   position: 参与者
   socials:
-    - link: http://twitter.com
+    - link: contact.html
       icon: weixin
+    - link: http://ucsd.edu
+      icon: home
+- avatar: images/@stock/university/Oxford.jpg
+  name: Oxford University
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+    - link: http://www.ox.ac.uk
+      icon: home
+- avatar: images/@stock/university/YALE.jpg
+  name: Yale University
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+    - link: http://www.yale.edu/
+      icon: home
   desc:
     下一个会不会是您呢？
