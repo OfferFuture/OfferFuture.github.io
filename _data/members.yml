@@ -52,6 +52,14 @@
       icon: weixin
     - link: http://www.ox.ac.uk
       icon: home
+- avatar: images/@stock/university/TAMU.png
+  name: Texas A&M University
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
+    - link: https://www.tamu.edu
+      icon: home
 - avatar: images/@stock/university/UCSD.png
   name: University of California, San Diego
   position: 参与者
