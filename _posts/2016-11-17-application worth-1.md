@@ -7,7 +7,6 @@ images:
   - images/@stock/blog/single-application.jpg
 categories: jekyll update
 ---
-===================
 
 [TOC]
 
