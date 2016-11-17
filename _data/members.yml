@@ -52,5 +52,11 @@
       icon: weixin
     - link: http://www.yale.edu/
       icon: home
+- avatar: images/@stock/university/member-1.jpg
+  name: Your University
+  position: 参与者
+  socials:
+    - link: contact.html
+      icon: weixin
   desc:
     下一个会不会是您呢？
