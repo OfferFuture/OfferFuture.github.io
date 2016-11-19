@@ -290,17 +290,19 @@ milestones:
 		    {% if forloop.index > 4 %}
 			  {% break %}
 			{% endif %}
-            <li class="{{ offer.klass }}">
-              <a href='{{ offer.link_to }}'>
-                <img alt="" src="{{ offer.image }}" />
-                <div class='overlay'>
-                  <div class='thumb-info'>
-                    <h3>{{ offer.title }}</h3>
-                    <p>{{ offer.desc }}</p>
+			{% for img in offer.images %}
+              <li class="{{ offer.klass }}">
+                <a href='{{ offer.link_to }}'>
+                  <img alt="" src="{{ offer.image }}" />
+                  <div class='overlay'>
+                    <div class='thumb-info'>
+                      <h3>{{ offer.title }}</h3>
+                      <p>{{ offer.desc }}</p>
+                    </div>
                   </div>
-                </div>
-              </a>
-            </li>
+                </a>
+              </li>
+			{% endfor %}
           {% endfor %}
         </ul>
 	  </div>
