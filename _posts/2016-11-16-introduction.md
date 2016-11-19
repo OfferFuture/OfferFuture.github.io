@@ -4,7 +4,7 @@ title:  "为什么选择北美博士帮帮忙？"
 author: 北美博士帮帮忙
 date:   2016-11-15 08:19:12
 images:
-  - images/@stock/blog/why-us.jpg
+  - images/@stock/blog/why-us.png
 categories: Best
 ---
 ----------
