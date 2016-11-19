@@ -318,7 +318,7 @@ milestones:
   <div class='row'>
 	  <div class="mod modOfferGallery">
         <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-          {% for offer in page.offers %}
+          {% for offer in site.data.offers %}
 		    {% if forloop.index > 4 %}
 			  {% break %}
 			{% endif %}

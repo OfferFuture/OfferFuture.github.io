@@ -2,32 +2,6 @@
 layout: default
 title: Offers
 section_id: offers
-offers:
-  - image: images/@stock/work-1.jpg
-    title: CS/EE/材料/生统
-    link_to: offers-item.html
-    klass: CSE CME STA
-    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-  - image: images/@stock/work-1.jpg
-    title: CS/EE/材料/生统
-    link_to: offers-item.html
-    klass: BAM BUS STA
-    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-  - image: images/@stock/work-1.jpg
-    title: CS/EE/材料/生统
-    link_to: offers-item.html
-    klass: BAM BUS
-    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-  - image: images/@stock/work-1.jpg
-    title: CS/EE/材料/生统
-    link_to: offers-item.html
-    klass: BUS STA
-    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-  - image: images/@stock/work-1.jpg
-    title: CS/EE/材料/生统
-    link_to: offers-item.html
-    klass: CME STA
-    desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
 ---
 
 
@@ -75,7 +49,7 @@ offers:
 
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
-        {% for offer in page.offers %}
+        {% for offer in site.data.offers %}
           <li class="{{ offer.klass }}">
             <a href='{{ offer.link_to }}'>
               <img alt="" src="{{ offer.image }}" />
