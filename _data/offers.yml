@@ -1,25 +1,98 @@
-- title: Offer来啦第44期： CS/EE/材料/生统
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
   images: 
-    - link: images/@stock/positions/pos-1.png
+    - link: images/@stock/positions/43.png
   link_to: offers-item.html
   klass: CSE CME STA
   desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-- title: Offer来啦第44期： CS/EE/材料/生统
+  date: 2016-11-16
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
   images: 
-    - link: images/@stock/positions/pos-2.png
+    - link: images/@stock/positions/431.png
   link_to: offers-item.html
-  klass: BAM BUS STA
-  desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-- title: Offer来啦第44期： CS/EE/材料/生统
+  klass: CIV EAR BAM
+  desc: 岩土 &amp; 地质 &amp; 生物化学
+  date: 2016-11-16
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
   images: 
-    - link: images/@stock/positions/pos-3.png
+    - link: images/@stock/positions/432.png
   link_to: offers-item.html
-  klass: BAM BUS
-  desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
-- title: Offer来啦第44期： CS/EE/材料/生统
+  klass: CSE BUS SOC
+  desc: 计算机 &amp; 经济 &amp; 社科
+  date: 2016-11-16
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
   images: 
-    - link: images/@stock/positions/pos-4.png
-  title: CS/EE/材料/生统
+    - link: images/@stock/positions/433.png
   link_to: offers-item.html
-  klass: BUS STA
+  klass: CSE
+  desc: 计算机 &amp; 电子
+  date: 2016-11-16
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
+  images: 
+    - link: images/@stock/positions/434.png
+  link_to: offers-item.html
+  klass: CSE STA
+  desc: 计算机 &amp; 应用数学 &amp; 统计
+  date: 2016-11-16
+- title: Offer来啦第43期： CS/EE/生统/社科/商科/数统
+  images: 
+    - link: images/@stock/positions/435.png
+  link_to: offers-item.html
+  klass: STA
+  desc: 生物统计学
+  date: 2016-11-16
+- title: Offer来啦第40期： CS/EE/材料/环境/土木
+  images: 
+    - link: images/@stock/positions/40.png
+  link_to: offers-item.html
+  klass: CSE CME CHEM CIV
+  desc: 计算机 &amp; 电子 &amp; 统计 &amp; 环境 &amp; 土木
+  date: 2016-11-16
+- title: Offer来啦第40期： CS/EE/材料/环境/土木
+  images: 
+    - link: images/@stock/positions/401.png
+  link_to: offers-item.html
+  klass: CHEM
   desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
+  date: 2016-11-16
+- title: Offer来啦第40期： CS/EE/材料/环境/土木
+  images: 
+    - link: images/@stock/positions/402.png
+  link_to: offers-item.html
+  klass: CIV CME
+  desc: 土木 &amp; 工程材料 &amp; 工程结构
+  date: 2016-11-16
+- title: Offer来啦第40期： CS/EE/材料/环境/土木
+  images: 
+    - link: images/@stock/positions/403.png
+  link_to: offers-item.html
+  klass: CSE
+  desc: 计算机 &amp; 电子 
+  date: 2016-11-16
+- title: Offer来啦第37期： CS/EE/材料/生物/医学/物理
+  images: 
+    - link: images/@stock/positions/37.png
+  link_to: offers-item.html
+  klass: CSE CME BAM CHEM CIV
+  desc: 计算机 &amp; 电子 &amp; 材料 &amp; 生物医学 &amp; 机械 &amp; 物理
+  date: 2016-11-16
+- title: Offer来啦第37期： CS/EE/材料/生物/医学/物理
+  images: 
+    - link: images/@stock/positions/371.png
+  link_to: offers-item.html
+  klass: CHEM
+  desc: 机械 &amp; 材料 &amp; 生物医学 &amp; 物理
+  date: 2016-11-16
+- title: Offer来啦第37期： CS/EE/材料/生物/医学/物理
+  images: 
+    - link: images/@stock/positions/372.png
+  link_to: offers-item.html
+  klass: CIV CME
+  desc: 土木 &amp; 工程材料 &amp; 工程结构
+  date: 2016-11-16
+- title: Offer来啦第37期： CS/EE/材料/环境/土木
+  images: 
+    - link: images/@stock/positions/403.png
+  link_to: offers-item.html
+  klass: CSE
+  desc: 计算机 &amp; 电子 &amp; 机器人
+  date: 2016-11-16
