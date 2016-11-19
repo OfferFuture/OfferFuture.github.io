@@ -2,32 +2,6 @@
 layout: default
 title: Portfolio
 section_id: portfolio
-works:
-  - image: images/@stock/offers/Offer-1.jpg
-    title: 付同学
-    link_to: portfolio.html
-    klass: PhD
-    desc: 伊利诺伊大学
-  - image: images/@stock/offers/Offer-2.jpg
-    title: 易同学
-    link_to: portfolio.html
-    klass: PhD
-    desc: 阿尔伯塔大学全奖Offer
-  - image: images/@stock/offers/Offer-3.jpg
-    title: 蒋同学-南阳理工大学全奖Offer
-    link_to: portfolio.html
-    klass: PhD
-    desc: Design &amp; Development
-  - image: images/@stock/offers/Offer-4.jpg
-    title: 陆同学
-    link_to: portfolio.html
-    klass: PhD
-    desc: 弗罗里达大学计算机系
-  - image: images/@stock/offers/Offer-5.jpg
-    title: 陈同学
-    link_to: portfolio.html
-    klass: PhD
-    desc: Nebraska大学全奖Offer
 ---
 
 
@@ -63,7 +37,7 @@ works:
 
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
-        {% for work in page.works %}
+        {% for work in site.data.works %}
           <li class="{{ work.klass }}">
             <a href='{{ work.link_to }}'>
               <img alt="" src="{{ work.image }}" />
