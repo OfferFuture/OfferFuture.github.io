@@ -5,7 +5,7 @@ author: 北美博士帮帮忙
 date:   2016-11-17 08:29:12
 images:
   - images/@stock/blog/multi-application.jpg
-categories: jekyll update
+categories: Best
 ---
 ----------
 [TOC]
