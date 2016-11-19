@@ -290,10 +290,10 @@ milestones:
 		    {% if forloop.index > 4 %}
 			  {% break %}
 			{% endif %}
-			{% for img in offer.images %}
+			{% for image in offer.images %}
               <li class="{{ offer.klass }}">
                 <a href='{{ offer.link_to }}'>
-                  <img alt="" src="{{ offer.image }}" />
+                  <img alt="" src="{{ image }}" />
                   <div class='overlay'>
                     <div class='thumb-info'>
                       <h3>{{ offer.title }}</h3>
