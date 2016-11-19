@@ -50,18 +50,21 @@ section_id: offers
       <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
         {% for offer in site.data.offers %}
-          <li class="{{ offer.klass }}">
-            <a href='{{ offer.link_to }}'>
-              <img alt="" src="{{ offer.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ offer.title }}</h3>
-                  <p>{{ offer.desc }}</p>
+		  {% for image in offer.images %}
+            <li class="{{ offer.klass }}">
+              <a href='{{ offer.link_to }}'>
+                <img alt="" src="{{ image.link }}" />
+                <div class='overlay'>
+                  <div class='thumb-info'>
+                    <h3>{{ offer.title }}</h3>
+                    <p>{{ offer.desc }}</p>
+                  </div>
                 </div>
-              </div>
-            </a>
-          </li>
+              </a>
+            </li>
+		  {% endfor %}
         {% endfor %}
+		
 
       </ul>
 
