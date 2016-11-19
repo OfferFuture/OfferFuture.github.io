@@ -1,24 +1,24 @@
 - title: Offer来啦第44期： CS/EE/材料/生统
   images: 
-    - img: images/@stock/positions/pos-1.png
+    - link: images/@stock/positions/pos-1.png
   link_to: offers-item.html
   klass: CSE CME STA
   desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
 - title: Offer来啦第44期： CS/EE/材料/生统
   images: 
-    - img: images/@stock/positions/pos-2.png
+    - link: images/@stock/positions/pos-2.png
   link_to: offers-item.html
   klass: BAM BUS STA
   desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
 - title: Offer来啦第44期： CS/EE/材料/生统
   images: 
-    - img: images/@stock/positions/pos-3.png
+    - link: images/@stock/positions/pos-3.png
   link_to: offers-item.html
   klass: BAM BUS
   desc: 计算机 &amp; 电子 &amp; 统计 &amp; 生物
 - title: Offer来啦第44期： CS/EE/材料/生统
   images: 
-    - img: images/@stock/positions/pos-4.png
+    - link: images/@stock/positions/pos-4.png
   title: CS/EE/材料/生统
   link_to: offers-item.html
   klass: BUS STA
