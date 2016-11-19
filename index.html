@@ -293,7 +293,7 @@ milestones:
 			{% for image in offer.images %}
               <li class="{{ offer.klass }}">
                 <a href='{{ offer.link_to }}'>
-                  <img alt="" src="{ image }" />
+                  <img alt="" src="{{ image.image }}" />
                   <div class='overlay'>
                     <div class='thumb-info'>
                       <h3>{{ offer.title }}</h3>
